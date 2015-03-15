@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C1D82A4F-E622-4B4C-97A5-44A2931504F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TrackMix</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4244E80FC04903BFD0B8894C005BDA560848E8FC</key>
+		<string>github.com:cokerxi/firstMacApp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TrackMix/TrackMix.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4244E80FC04903BFD0B8894C005BDA560848E8FC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:cokerxi/firstMacApp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4244E80FC04903BFD0B8894C005BDA560848E8FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4244E80FC04903BFD0B8894C005BDA560848E8FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>firstMacApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
