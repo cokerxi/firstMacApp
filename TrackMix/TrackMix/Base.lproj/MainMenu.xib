@@ -13,6 +13,8 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="slider" destination="HcZ-Aw-74l" id="oZn-Mb-9IQ"/>
+                <outlet property="textField" destination="UPQ-jN-6l3" id="LM3-ky-S9H"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -677,7 +679,11 @@
                 <subviews>
                     <slider horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HcZ-Aw-74l">
                         <rect key="frame" x="120" y="48" width="21" height="318"/>
-                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="11" doubleValue="5" tickMarkPosition="right" sliderType="linear" id="LRI-E6-SRs"/>
+                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="11" doubleValue="5" tickMarkPosition="right" sliderType="linear" id="LRI-E6-SRs">
+                            <connections>
+                                <action selector="takeFloatValueForVolumeFrom:" target="Voe-Tx-rLC" id="7rS-6b-D3a"/>
+                            </connections>
+                        </sliderCell>
                     </slider>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UPQ-jN-6l3">
                         <rect key="frame" x="82" y="372" width="96" height="22"/>

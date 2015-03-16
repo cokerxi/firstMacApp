@@ -12,6 +12,8 @@
 
 - (IBAction)mute:(id)sender;
 - (IBAction)takeFloatValueForVolumeFrom:(id)sender;
+@property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSSlider *slider;
 
 @end
 
