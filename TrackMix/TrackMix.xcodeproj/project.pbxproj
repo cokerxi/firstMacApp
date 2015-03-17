@@ -12,6 +12,7 @@
 		45CEE6281AB53F3A00A044AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CEE6271AB53F3A00A044AC /* Images.xcassets */; };
 		45CEE62B1AB53F3A00A044AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CEE6291AB53F3A00A044AC /* MainMenu.xib */; };
 		45CEE6371AB53F3A00A044AC /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CEE6361AB53F3A00A044AC /* TrackMixTests.m */; };
+		88EFFB281AB6DAD700E3C850 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EFFB271AB6DAD700E3C850 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		45CEE6301AB53F3A00A044AC /* TrackMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CEE6351AB53F3A00A044AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45CEE6361AB53F3A00A044AC /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		88EFFB261AB6DAD700E3C850 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		88EFFB271AB6DAD700E3C850 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 		45CEE61F1AB53F3A00A044AC /* TrackMix */ = {
 			isa = PBXGroup;
 			children = (
+				88EFFB261AB6DAD700E3C850 /* Track.h */,
+				88EFFB271AB6DAD700E3C850 /* Track.m */,
 				45CEE6221AB53F3A00A044AC /* AppDelegate.h */,
 				45CEE6231AB53F3A00A044AC /* AppDelegate.m */,
 				45CEE6271AB53F3A00A044AC /* Images.xcassets */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EFFB281AB6DAD700E3C850 /* Track.m in Sources */,
 				45CEE6261AB53F3A00A044AC /* main.m in Sources */,
 				45CEE6241AB53F3A00A044AC /* AppDelegate.m in Sources */,
 			);
@@ -398,6 +404,7 @@
 				45CEE63C1AB53F3A00A044AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45CEE63D1AB53F3A00A044AC /* Build configuration list for PBXNativeTarget "TrackMixTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +413,7 @@
 				45CEE63F1AB53F3A00A044AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
