@@ -20,6 +20,7 @@
     // Insert code here to initialize your application
     Track *aTrack = [[Track alloc]init];
     [self setTrack:aTrack];  //also can replace with: self.track = aTrack;
+    [self updateUserInterface];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -27,7 +28,9 @@
 }
 
 - (IBAction)mute:(id)sender {
-    NSLog(@"received a mute:message");
+    [self.track setVolume:0.0];
+    [self updateUserInterface];
+    //NSLog(@"received a mute:message");
 }
 
 - (IBAction)takeFloatValueForVolumeFrom:(id)sender {
@@ -43,5 +46,12 @@
 //        senderName = @"slider";
 //    }
 //    NSLog(@"%@ sent takeFloatValueForVolumeFrom:with value %1.2f", senderName, [sender floatValue]);
+}
+
+- (void)updateUserInterface{
+    
+    float volume = [self.track volume];
+    [self.textField setFloatValue:volume];
+    [self.slider setFloatValue:volume];
 }
 @end

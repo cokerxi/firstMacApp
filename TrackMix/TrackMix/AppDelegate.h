@@ -17,6 +17,6 @@
 
 - (IBAction)mute:(id)sender;
 - (IBAction)takeFloatValueForVolumeFrom:(id)sender;
-
+- (void)updateUserInterface;
 @end
 
